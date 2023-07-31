@@ -1,0 +1,86 @@
+.carousel {
+  background-color: white;
+  height: 100vh;
+  width: 99vw;
+  overflow-x: hidden;
+  margin-top: -100px !important;
+}
+#prev i,
+#next i {
+  font-size: 58px;
+  color: grey;
+  font-weight: 200;
+  padding: 0vh 4vw;
+}
+.first-bag {
+  background: url(./assets/Vector2.png);
+}
+.second-bag {
+  background: url(./assets/Vector3.png);
+}
+.third-bag {
+  background: url(./assets/Vector4.png);
+}
+.first-bag {
+  background-color: white;
+  height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  background-color: none !important;
+  font-family: "Kumbh Sans", sans-serif;
+  border: none !important;
+}
+.carousel h1 {
+  color: black;
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 800;
+}
+.carousel p {
+  font-size: 16px;
+  /* width: 100px; */
+  color: black;
+  margin-top: 5px;
+  width: 300px;
+  margin-left: 20%;
+}
+.carousel label {
+  font-size: 22px;
+  color: whitesmoke;
+  font-weight: 600;
+}
+.carousel .add-to-cart-carousel {
+  background-color: orange;
+  color: white;
+  font-size: 14px;
+  padding: 5px 5px;
+  width: 120px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 38%;
+  margin-top: 15px;
+}
+.carousel img {
+  margin-top: 100px;
+  transition: transform;
+  width: 420px;
+  height: 420px;
+}
+.carousel img:hover {
+  translate: 10px 20px;
+  transform: scale(1.15);
+}
+.second-bag img {
+  height: 350px;
+}
+.third-bag img {
+  height: 350px;
+  width: 280px;
+}

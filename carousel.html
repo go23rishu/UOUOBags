@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Simple vanilla js carousel</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="carousel.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Italiana&family=Kumbh+Sans:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+
+  <div class="h-screen grid place-content-center carousel">
+
+    <section class="flex">
+      <div class="h-fit my-auto mx-2">
+        <button id="prev">
+          <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i> </button>
+      </div>
+      <div id="slider" class="w-[500px] flex overflow-hidden h-[300px]scroll-smooth">
+
+        <div id="slider-container" class="flex">
+          <article class="card w-[500px] p-4" style="background-color: #971b1b;border:none;">
+            <div class="grid content-center text-center">
+              <img src="./assets/PngItem_6094056.png">
+              <h1> BUCKET BAG </h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error aspernatur praesentium vel.</p>
+              <label>Rs 2500</label>
+              <button class="add-to-cart-carousel center">ADD TO CART</button>
+            </div>
+          </article>
+          <article class="card w-[500px] p-4">
+            <div class="w-full h-full bg-blue-200"></div>
+          </article>
+          <article class="card w-[500px] p-4">
+            <div class="w-full h-full bg-blue-300"></div>
+          </article>
+          <article class="card w-[500px] p-4">
+            <div class="w-full h-full bg-blue-400"></div>
+          </article>
+          <article class="card w-[500px] p-4">
+            <div class="w-full h-full bg-blue-500"></div>
+          </article>
+          <article class="card w-[500px] p-4">
+            <div class="w-full h-full bg-blue-600"></div>
+          </article>
+          <article class="card w-[500px] p-4">
+            <div class="w-full h-full bg-blue-700"></div>
+          </article>
+          <article class="card w-[500px] p-4">
+            <div class="w-full h-full bg-blue-800"></div>
+          </article>
+          <article class="card w-[500px] p-4">
+            <div class="w-full h-full bg-blue-900 grid content-center text-center">
+              <p class="text-3xl font-bold">JS is fun ! :D</p>
+            </div>
+          </article>
+        </div>
+
+
+      </div>
+      <div class="h-fit my-auto mx-2">
+        <button id="next"> <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> </button>
+      </div>
+    </section>
+
+
+    <style>
+      .slider {
+        scrollbar-width: none;
+        /* Firefox */
+        -ms-overflow-style: none;
+        /* Internet Explorer 10+ */
+      }
+
+      /* WebKit */
+      .slider::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+      }
+    </style>
+
+
+
+
+
+  </div>
+  <!-- partial -->
+  <script src="./script.js"></script>
+
+</body>
+
+</html>

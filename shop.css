@@ -1,0 +1,75 @@
+@font-face {
+  font-family: Monatha;
+  src: url(./fonts/FontsFree-Net-MonathaRegular-ZVzlZ-2.ttf);
+}
+.header-shop {
+  background: linear-gradient(
+      90deg,
+      rgba(151, 71, 255, 0.5) 0%,
+      rgba(151, 71, 255, 0.5) 35%,
+      rgba(151, 71, 255, 0.5) 100%
+    ),
+    url(./assets/Shop/Shop/Rectangle2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.header-shop h1 {
+  color: #231f20;
+  font-family: Lexend Exa;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.header-shop h2 {
+  font-family: "Monatha", sans-serif;
+  color: #231f20;
+  font-size: 100px;
+}
+.header-shop h3 {
+  font-family: "Kumbh Sans", sans-serif;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.header-shop p {
+  font-family: "Kumbh Sans", sans-serif;
+  color: #231f20;
+  width: 20vw;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.header-shop button {
+  color: white;
+  background-color: #fca311;
+  font-family: "kumbh Sans", sans-serif;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 8px;
+}
+.header-shop i {
+  font-size: 80px;
+  color: black;
+  margin-bottom: 20px;
+}
+.maps {
+  margin-top: -20px;
+}
+.door-frame {
+  height: 99vh;
+  margin-top: -50px;
+}
+.footer {
+  margin-top: -10px;
+}

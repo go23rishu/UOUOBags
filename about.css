@@ -1,0 +1,98 @@
+/* header container */
+.header-about-container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.header-about-container .left img {
+  height: 750px;
+  margin-left: -20px;
+  object-fit: contain;
+  object-position: 50% 50%;
+}
+.about-us {
+  margin-left: 50px;
+}
+.about-us label {
+  font-family: Lexend Exa;
+  font-weight: 600;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+.about-us p {
+  font-family: Lexend Exa;
+  font-weight: 300;
+  width: 65%;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  line-height: 40px;
+}
+.right {
+  padding: 50px 20px;
+}
+.yellow-rect {
+  position: absolute;
+  top: 20px;
+  height: 200px;
+  right: 0;
+}
+.large-text {
+  top: 150px;
+  position: absolute;
+  height: 90vh;
+  margin-left: 28vw;
+}
+.design-experience {
+  display: flex;
+  background-color: #ffe4e4;
+}
+.rd-img {
+  height: 533px;
+}
+.right-de {
+  position: relative;
+}
+.rd-circle {
+  height: 533px;
+  position: absolute;
+  right: 0;
+  opacity: 1;
+  mix-blend-mode: color-dodge;
+}
+.left-de {
+  padding: 50px 0;
+  padding-left: 170px;
+}
+.left-de label {
+  font-family: Lexend Exa;
+  font-weight: 800;
+  font-size: 38px;
+}
+.left-de p {
+  font-family: Lexend Exa;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+.gif {
+  position: relative;
+  /* height: 100vh; */
+}
+.lines {
+  width: 100vw;
+}
+.gif .bags {
+  position: absolute;
+  height: 600px;
+  top: 50px;
+  left: 25vw;
+}
+.uouo {
+  position: absolute;
+  top: 140px;
+  height: 450px;
+  left: 20vw;
+  z-index: 1;
+}

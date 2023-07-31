@@ -1,0 +1,240 @@
+@font-face {
+  font-family: Monatha;
+  src: url(./fonts/FontsFree-Net-MonathaRegular-ZVzlZ-2.ttf);
+}
+body {
+  background: url(./assets/NewCollections/Rectangle1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.navbar {
+  z-index: 9999999 !important;
+}
+.header-newcollections {
+  display: flex;
+  flex-direction: column;
+}
+.bags-menu-header {
+  display: flex;
+}
+.this-month-tag {
+  display: flex;
+  align-items: center;
+  margin-top: 5vh;
+}
+.this-month-tag h1 {
+  font-family: Monatha, sans-serif;
+  font-size: 60px;
+  color: #ffe4e4;
+}
+.this-month-tag img {
+  width: 25vw;
+  padding: 0 20px;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kumbh Sans", sans-serif;
+  position: relative;
+}
+#bag1 img,
+#bag3 img {
+  height: auto;
+  width: 180px;
+}
+#bag2 img {
+  height: auto;
+  width: 300px;
+}
+#title {
+  margin-top: 50px;
+  font-size: 32px;
+  color: white;
+  font-weight: 600;
+}
+#small-desc {
+  font-size: 14px;
+  color: #ff97a3;
+  width: 200px;
+}
+#price {
+  font-size: 24px;
+  color: #ffe4e4;
+}
+#add-to-cart {
+  background-color: #fca311;
+  padding: 10px 15px;
+  font-size: 12px;
+  color: white;
+  border-radius: 8px;
+}
+#title1 {
+  margin-top: 50px;
+  font-size: 28px;
+  color: white;
+  font-weight: 600;
+}
+#small-desc1 {
+  font-size: 12px;
+  color: #ff97a3;
+  width: 180px;
+}
+#price1 {
+  font-size: 18px;
+  color: #ffe4e4;
+}
+.circle {
+  background: rgba(255, 255, 255, 0.652);
+  padding: 70px 65px;
+  border-radius: 255px;
+  display: flex;
+}
+.circle1 {
+  background: rgba(255, 255, 255, 0.251);
+  padding: 60px 55px;
+  border-radius: 250px;
+  opacity: 0.75;
+}
+.circle i {
+  color: #9036af;
+  font-size: 35px;
+  margin: auto;
+  transition: transform 0.2s;
+}
+.circle i:hover {
+  color: #b928ea;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+#bag1,
+#bag3 {
+  position: absolute;
+  margin-top: 50px;
+  opacity: 0.75;
+}
+#bag1 {
+  margin-left: -380px;
+}
+#bag3 {
+  margin-left: 180px;
+}
+#bag2 {
+  transition: transform 0.2s;
+}
+#bag2:hover {
+  transform: scale(1.1);
+}
+#circle:hover {
+  transform: scale(1.1);
+}
+
+/* Menu starts from Here */
+
+#lmc-img {
+  height: auto;
+  width: 280px;
+  transition: transform 0.2s;
+}
+#lmc-img:hover {
+  transform: scale(0.8);
+}
+#title2 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 24px;
+  color: white;
+  font-weight: 600;
+  margin-top: 50px;
+  transition: transform 0.2s;
+}
+#title2:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  border-bottom: solid 0.2px white;
+}
+#small-desc2 {
+  color: #ff97a3;
+  font-size: 14px;
+  width: 80%;
+}
+#price2 {
+  color: white;
+  font-size: 24px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 600;
+}
+#add-to-cart2 {
+  background-color: #fca311;
+  padding: 10px 15px;
+  font-size: 12px;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  transition: transform 0.2s;
+}
+#add-to-cart2:hover {
+  transform: scale(1.1);
+}
+.details {
+  background: rgba(255, 255, 255, 0.305);
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0px;
+  margin-top: -40px;
+  border-radius: 36px;
+}
+.row {
+  margin-bottom: 25px;
+}
+#more-button {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: #ff97a3;
+  width: 157px;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+  color: #9036af;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  transition: transform 0.2s;
+}
+#more-button:hover {
+  transform: scale(1.1);
+}
+.left-span {
+  /* position: sticky;
+  /* left: -300px; */
+  /* transform: rotateZ(90deg);
+  text-align: left;
+  right: 400px; */
+}
+.left-span p {
+  /* font-family: "Kumbh Sans", sans-serif;
+  font-size: 85px;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 1px;
+  color: transparent;
+  font-weight: 800; */
+}
+.left-span img,
+.right-span img {
+  width: 80px;
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  z-index: -1;
+}
+.navbar {
+  z-index: -2;
+}
+.right-span img {
+  left: 0px;
+  transform: rotate(180deg);
+}

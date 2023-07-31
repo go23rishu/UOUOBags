@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #971b1b;
+  padding: 10px 15vw;
+}
+.navbar img {
+  height: 60px;
+  width: auto;
+  background-color: white;
+  padding-top: -50px;
+}
+.navbar a {
+  font-family: "Italiana", serif;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+  transition: transform 0.2s;
+}
+.navbar a:hover {
+  transform: scale(1.1);
+  border: solid 1px orange;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: orange;
+}
+/* Header styling */
+.header {
+  background-color: #971b1b;
+  height: 100vh;
+}
+.saletag {
+  display: flex;
+}
+.saletag h1 {
+  font-size: 10rem;
+  color: #971b1b;
+  font-family: "Italiana", serif;
+  font-family: "Kumbh Sans", sans-serif;
+  margin-top: 25px;
+  font-weight: 700;
+  margin-left: 150px;
+  white-space: nowrap;
+  position: absolute;
+  text-transform: uppercase;
+  text-shadow: -1px 5px 6px rgba(0, 0, 0, 0.6);
+  -webkit-animation: mymove 5s linear infinite; /* Safari 4.0 - 8.0 */
+  white-space: nowrap;
+  /* animation: mymove 8s linear infinite alternate; */
+}
+@keyframes mymove {
+  from {
+    left: 1000px;
+  }
+  to {
+    left: -500px;
+  }
+}
+/* Limited Offers styling */
+.limited-offers {
+  display: flex;
+  height: 110px;
+  padding: 20px 5vw;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+.limited-offers .limited-tag h2 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+.limited-circles {
+  display: flex;
+}
+.limited-circles .small-circle {
+  height: 70px;
+  width: 70px;
+  background-color: rgb(248, 82, 110);
+  border-radius: 50%;
+  margin-left: 2vw;
+}
+iframe {
+  width: 100vw;
+  height: 100%;
+  margin-top: 150px;
+}
+
+/* Footer styling */
+.footer {
+  background-color: rgb(31, 30, 30);
+  /* background-color: red; */
+  color: white;
+  font-family: "Kumbh Sans", sans-serif;
+  list-style: none;
+  display: flex;
+  padding: 50px 50px;
+  justify-content: space-evenly;
+}
+.footer .logo {
+  display: flex;
+  flex-direction: column;
+  font-family: "Italiana", serif;
+  font-size: 24px;
+  letter-spacing: 7px;
+}
+.footer img {
+  height: 90px;
+  width: auto;
+  background-color: white;
+}
+.footer ul {
+  list-style: none;
+}
+.footer i {
+  color: blueviolet;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.footer i:hover {
+  transform: scale(1.05);
+  border: solid 1px blueviolet;
+  padding: 5px 5px;
+  color: white;
+  background-color: blueviolet;
+  border-radius: 50%;
+}
+.subscribe {
+  display: flex;
+  flex-direction: column;
+}
+ul li {
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 200;
+}
+ul li:first-child {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.social-media {
+  display: flex;
+  justify-content: space-evenly;
+}
+.subscribe h3 {
+  font-size: 18px;
+}
+.subscribe h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.subscribe input {
+  border-radius: 5px;
+  border: none;
+  padding: 5px 5px;
+}
+.subscribe input::placeholder {
+  font-size: 12px;
+}
+.subscribe button {
+  background-color: blueviolet;
+  width: 50%;
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 10px 10px;
+  transition: transform 0.2s;
+}
+.subscribe-btn:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+  color: blueviolet;
+  background-color: white;
+}
+.links {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.links:hover {
+  opacity: 0.9;
+  border-bottom: solid grey 1px;
+}
+.contact-shortlinks {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.contact-shortlinks:hover {
+  opacity: 0.9;
+  border-bottom: solid grey 1px;
+}
+.arrleft {
+  position: absolute;
+  left: 50px;
+  font-size: 50px;
+  transition: transform 0.2s;
+  cursor: pointer;
+  color: black;
+}
+.arrleft:hover {
+  opacity: 0.9;
+  transform: scale(2);
+}

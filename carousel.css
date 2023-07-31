@@ -1,0 +1,72 @@
+.carousel {
+  background-color: #971b1b;
+}
+#prev i,
+#next i {
+  font-size: 58px;
+  color: rgba(240, 248, 255, 0.749);
+  font-weight: 200;
+  padding: 0vh 5vw;
+  transition: transform 0.2s;
+}
+#prev i:hover,
+#next i:hover {
+  opacity: 0.9;
+  transform: scale(0.9);
+}
+.card {
+  background-color: none !important;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.carousel h1 {
+  color: white;
+  font-size: 25px;
+  margin-top: 10px;
+  font-weight: 600;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.carousel h1:hover {
+  text-decoration: underline;
+  transform: scale(1.5);
+  transform: translateY(10px);
+}
+.carousel p {
+  font-size: 16px;
+  /* width: 100px; */
+  color: rgba(255, 255, 255, 0.449);
+  margin-top: 10px;
+  width: 300px;
+  margin-left: 20%;
+}
+.carousel label {
+  font-size: 22px;
+  color: whitesmoke;
+  font-weight: 600;
+}
+.carousel .add-to-cart-carousel {
+  background-color: orange;
+  color: white;
+  font-size: 14px;
+  padding: 5px 5px;
+  width: 120px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 38%;
+  margin-top: 15px;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.carousel .add-to-cart-carousel:hover {
+  transform: scale(1.1);
+  color: orange;
+  background-color: white;
+  border: orange;
+}
+.carousel img {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.carousel img:hover {
+  transform: scale(1.1) translateY(-5px);
+}

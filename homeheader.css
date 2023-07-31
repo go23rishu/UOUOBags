@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Kopub;
+  src: url(./fonts/KoPubBatang-Bold.ttf);
+  src: url(./fonts/KoPubBatang-Light.ttf);
+  src: url(./fonts/KoPubBatang-Regular.ttf);
+}
+.home-header {
+  width: 300vw;
+  padding-top: 15vh;
+  background: url(./assets/gradient.png);
+  display: flex;
+  position: relative;
+  animation: mymoves 10s infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate-reverse;
+}
+@keyframes mymoves {
+  from {
+    right: 200%;
+  }
+  to {
+    right: 0%;
+  }
+}
+.spacious {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10vh 15vw;
+}
+img {
+  height: 320px;
+  margin-top: -150px;
+}
+span {
+  font-family: Kopub;
+  font-size: 150px;
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+}
+.home-header-bags {
+  padding: 10vh 7vw;
+  width: 100vw;
+  height: 85vh;
+}
+.home-header-bags2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  margin-top: -180px;
+}
+.home-header-bags3 {
+  display: flex;
+  width: 100vw;
+  margin-top: -150px;
+  flex-direction: column;
+  align-items: center;
+}
+#love {
+  margin-top: -15vh;
+}
+#love img {
+  height: 300px;
+  margin-top: -20vh;
+}
+#it {
+  margin-top: -15vh;
+}
+#design {
+  margin-top: -15vh;
+}
+#design img {
+  height: 450px;
+  margin-top: -10vh;
+}

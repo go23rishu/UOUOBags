@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Simple vanilla js carousel</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./bucketbagcarousel.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Italiana&family=Kumbh+Sans:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+
+  <div class="h-screen grid place-content-center carousel">
+
+    <section class="flex">
+      <div class="h-fit my-auto mx-2">
+        <button id="prev">
+          <i class="fa fa-caret-left" aria-hidden="true"></i> </button>
+      </div>
+      <div id="slider" class="w-[1100px] flex overflow-hidden h-[300px]scroll-smooth">
+
+        <div id="slider-container" class="flex">
+          <article class="card w-[350px]">
+            <div class="w-full first-bag" style="color:black;">
+              <img src="./assets/12-leather-women-bag-png-image.png" />
+              <h1>BUCKET BAG</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae odio tempora ut laboriosam
+                excepturi deserunt?</p>
+            </div>
+          </article>
+          <article class="card w-[350px] ml-10">
+            <div class="w-full first-bag second-bag" style="color:black;">
+              <img src="./assets/144666-handbag-leather-ladies-png-image-high-quality.png" />
+              <h1>BUCKET BAG</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae odio tempora ut laboriosam
+                excepturi deserunt?</p>
+            </div>
+          </article>
+          <article class="card w-[300px] ml-10">
+            <div class="w-full first-bag third-bag" style="color:black;">
+              <img src="./assets/8-2-women-bag-high-quality-png.png" />
+              <h1>BUCKET BAG</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae odio tempora ut laboriosam
+                excepturi deserunt?</p>
+            </div>
+          </article>
+          <article class="card w-[300px] ml-10">
+            <div class="w-full first-bag" style="color:black;">
+              <img src="./assets/134970-blue-handbag-ladies-png-free-photo.png" />
+              <h1>BUCKET BAG</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae odio tempora ut laboriosam
+                excepturi deserunt?</p>
+            </div>
+          </article>
+          <article class="card w-[300px] ml-10">
+            <div class="w-full first-bag" style="color:black;">
+              <img src="./assets/134970-blue-handbag-ladies-png-free-photo.png" />
+              <h1>BUCKET BAG</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae odio tempora ut laboriosam
+                excepturi deserunt?</p>
+            </div>
+          </article>
+          <article class="card w-[300px] ml-10">
+            <div class="w-full first-bag" style="color:black;">
+              <img src="./assets/134970-blue-handbag-ladies-png-free-photo.png" />
+              <h1>BUCKET BAG</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae odio tempora ut laboriosam
+                excepturi deserunt?</p>
+            </div>
+          </article>
+          <article class="card w-[300px] ml-10">
+            <div class="w-full first-bag" style="color:black;">
+              <img src="./assets/134970-blue-handbag-ladies-png-free-photo.png" />
+              <h1>BUCKET BAG</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae odio tempora ut laboriosam
+                excepturi deserunt?</p>
+            </div>
+          </article>
+        </div>
+
+
+      </div>
+      <div class="h-fit my-auto mx-2">
+        <button id="next"> <i class="fa fa-caret-right" aria-hidden="true"></i> </button>
+      </div>
+    </section>
+
+
+    <style>
+      .slider {
+        scrollbar-width: none;
+        /* Firefox */
+        -ms-overflow-style: none;
+        /* Internet Explorer 10+ */
+      }
+
+      /* WebKit */
+      .slider::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+      }
+    </style>
+
+
+
+
+
+  </div>
+  <!-- partial -->
+  <script src="./bucketbagcarousel.js"></script>
+
+</body>
+
+</html>

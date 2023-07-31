@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- <title>CodePen - Responsive Login and Registration Form</title> -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UOUO Bags | Login</title>
+  <link rel="stylesheet" href="./login_signup.css">
+  <link rel="icon" href="./assets/fav.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Italiana&family=Kumbh+Sans:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+<!-- partial:index.partial.html -->
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar" style="background:#2c2b2b">
+    <img src="assets/BAG-LOGO.png" alt="" class="logo">
+    <a href="./home.html" class="nav-links">HOME</a>
+    <a href="./newcollection.html" class="nav-links">NEW COLLECTION</a>
+    <a href="./shop.html" class="nav-links">SHOP</a>
+    <a href="./about.html" class="nav-links">ABOUT US</a>
+    <a href="" class="nav-links"><i class="fa fa-search" aria-hidden="true"></i></a>
+    <a href="./login_signup.html" class="nav-links">SIGN-IN</a>
+    <a href="./login_signup.html" class="nav-links">LOG-IN</a>
+    <a href="" class="nav-links"><i class="fa fa-shopping-bag" style="color:#E6A467;" aria-hidden="true"></i></a>
+  </nav>
+  <section>
+    <div class="bigbox">
+      <div class="user signinBx">
+        <div class="imgBx">
+          <div class="logo">
+            <img src="./assets/BAG-LOGO.png" />
+            <label>BAGS</label>
+          </div>
+          <h1 class="title">Welcome Back !</h1>
+          <span class="desc">We missed you and happy your back!<br>To keep connect with us please login</span>
+          <button class="sign-up" onclick="toggleForm();">Sign-up</button>
+        </div>
+        <div class="formBx">
+          <form action="" onsubmit="return false;">
+            <h1 class="login-h1">Login to UOUO Bags</h1>
+            <div class="social-media-icons">
+              <img src="./assets/Login/Login/google.png">
+              <img src="./assets/Login/Login/facebook.png">
+            </div>
+            <label class="or">OR</label>
+            <div class="input-area">
+              <i class="fa fa-envelope"></i>
+              <input type="text" class="email" placeholder="Enter your mail ID" />
+            </div>
+            <div class="input-area">
+              <i class="fa fa-lock"></i>
+              <input type="password" class="password" placeholder="Enter your password" />
+            </div>
+            <div class="sep">
+              <a href="#" class="forgot-pass">Forgot Password</a>
+              <button class="sign-in">LOGIN</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="user signupBx">
+        <div class="formBx">
+          <form action="" onsubmit="return false;">
+            <div class="social-media-icons">
+              <img src="./assets/Login/Login/google.png">
+              <img src="./assets/Login/Login/facebook.png">
+            </div>
+            <label class="or">OR</label>
+            <div class="input-area">
+              <i class="fa fa-user"></i>
+              <input type="text" class="email" placeholder="Enter your name" />
+            </div>
+            <div class="input-area">
+              <i class="fa fa-envelope"></i>
+              <input type="text" class="email" placeholder="Enter your mail ID" />
+            </div>
+            <div class="input-area">
+              <i class="fa fa-lock"></i>
+              <input type="password" class="password" placeholder="Enter your password" />
+            </div>
+            <div class="sep">
+              <button class="sign-in log-signin">LOGIN</button>
+            </div>
+            </p>
+          </form>
+        </div>
+        <div class="imgBx">
+          <div class="logo">
+            <img src="./assets/BAG-LOGO.png" />
+            <label>BAGS</label>
+          </div>
+          <h1 class="title">Hey Beautiful !</h1>
+          <span class="desc">We missed you and happy your back!<br>To keep connect with us please login</span>
+          <button class="sign-up-2" onclick="toggleForm();">Sign-up</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+<!-- partial -->
+<script src="./login_signup.js"></script>
+<script src="index.js"></script>
+
+</html>
